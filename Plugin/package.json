@@ -1,0 +1,15 @@
+{
+  "name": "plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "dotnet fable . --outDir ./build --run npx webpack"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

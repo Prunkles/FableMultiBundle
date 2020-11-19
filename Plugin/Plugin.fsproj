@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+        <Content Include="webpack.config.js" />
+        <Content Include="package.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PluginFramework\PluginFramework.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Fable.Core" Version="4.0.0-nagareyama-alpha-001" />
+    </ItemGroup>
+
+</Project>

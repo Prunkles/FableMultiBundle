@@ -1,0 +1,17 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "dotnet fable watch . --outDir ./build --run npx webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
