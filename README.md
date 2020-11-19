@@ -2,7 +2,8 @@
 
 ## Running
 
-1. Restore tools (fable) `dotnet tool restore`
+1. Restore tools (fable) 
+    * `dotnet tool restore`
 2. Build plugin
     1. `cd Plugin`
     2. `npm i`
